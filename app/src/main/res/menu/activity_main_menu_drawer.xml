@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+tools:showIn="navigation_view">
+
+<group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_overzicht_reserveringen"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="Speltak reserveringen" />
+    <item
+        android:id="@+id/nav_overzicht_vergunningen"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="Speltak vergunningen" />
+    <item
+        android:id="@+id/nav_materiaal_reserveringen"
+        android:icon="@drawable/ic_menu_slideshow"
+        android:title="Reserveren materiaal" />
+    <item
+        android:id="@+id/nav_aanvraag_stookvergunning"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Aanvragen stookvergunning" />
+    <item
+        android:id="@+id/nav_aanvraag_overnachting"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Aanvragen overnachting" />
+</group>
+
+<item android:title="Contact">
+    <menu>
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Contact team materiaal" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Contact team IT" />
+    </menu>
+</item>
+
+</menu>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "329697971278",
+    "firebase_url": "https://dutmella-6c645.firebaseio.com",
+    "project_id": "dutmella-6c645",
+    "storage_bucket": "dutmella-6c645.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329697971278:android:74b48c48d425f7e8",
+        "android_client_info": {
+          "package_name": "com.example.dutmella"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329697971278-ii218vlrjpc3eosmkvicbt4gt4r7r5i8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dutmella",
+            "certificate_hash": "feb6ea9dd5b584455748d8a58f70cc3b60db6396"
+          }
+        },
+        {
+          "client_id": "329697971278-4felpaosq1tu3d846lfamuf20ei260vt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhi73V_crwHAb3LjFVwAtKAbkM86nbGsY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329697971278-4felpaosq1tu3d846lfamuf20ei260vt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
