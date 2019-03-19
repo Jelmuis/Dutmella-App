@@ -81,7 +81,7 @@ public class  MainMenuActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_overzicht_reserveringen) {
-            // Handle the camera action
+
         } else if (id == R.id.nav_overzicht_vergunningen) {
 
         } else if (id == R.id.nav_materiaal_reserveringen) {

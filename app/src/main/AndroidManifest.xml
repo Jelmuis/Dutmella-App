@@ -9,9 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Stookvergunning"></activity>
+        <activity
+            android:name=".ProductOverzicht"
+            android:label="@string/title_activity_product_overzicht"></activity>
+        <activity android:name=".Stookvergunning" />
         <activity android:name=".Model.Stookvergunning" />
-        <activity android:name=".ProductActivity" />
         <activity
             android:name=".MainMenuActivity"
             android:label="@string/title_activity_main_menu"
