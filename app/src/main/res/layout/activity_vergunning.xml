@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vergunning">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="237dp"
+        android:text="@string/bevestig"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editText5"
+        app:layout_constraintTop_toBottomOf="@+id/LeeftijdBegeleiders"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="178dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="23dp"
+        android:ems="10"
+        android:text="@string/speltak"
+        app:layout_constraintBottom_toTopOf="@+id/editText2"
+        app:layout_constraintEnd_toStartOf="@+id/Speltak"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread_inside" />
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="178dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="19dp"
+
+        android:ems="10"
+        android:text="@string/aantal_begeleiders"
+        app:layout_constraintBottom_toTopOf="@+id/editText3"
+        app:layout_constraintEnd_toStartOf="@+id/ABEG"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <TextView
+        android:id="@+id/editText3"
+        android:layout_width="178dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="21dp"
+        android:ems="10"
+
+
+        android:text="@string/leeftijd_begeleiders"
+        app:layout_constraintBottom_toTopOf="@+id/editText4"
+        app:layout_constraintEnd_toStartOf="@+id/LeeftijdBegeleiders"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+    <TextView
+        android:id="@+id/editText4"
+        android:layout_width="178dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="19dp"
+        android:ems="10"
+
+
+        android:text="@string/aantal_leden"
+        app:layout_constraintBottom_toTopOf="@+id/editText5"
+        app:layout_constraintEnd_toStartOf="@+id/Alid"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+
+    <TextView
+        android:id="@+id/editText5"
+        android:layout_width="178dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:text="@string/datum"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <Spinner
+        android:id="@+id/Speltak"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="23dp"
+        android:dropDownWidth="wrap_content"
+        android:entries="@array/Speltak"
+        android:spinnerMode="dropdown"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/ABEG"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editText"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/ABEG"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="19dp"
+        android:dropDownWidth="wrap_content"
+        android:entries="@array/Alid"
+        android:spinnerMode="dropdown"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/LeeftijdBegeleiders"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editText2"
+        app:layout_constraintTop_toBottomOf="@+id/Speltak" />
+
+    <Spinner
+        android:id="@+id/LeeftijdBegeleiders"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="21dp"
+        android:dropDownWidth="wrap_content"
+        android:entries="@string/LeeftijdBegeleiders"
+        android:spinnerMode="dropdown"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/Alid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editText3"
+        app:layout_constraintTop_toBottomOf="@+id/ABEG" />
+
+    <Spinner
+        android:id="@+id/Alid"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="129dp"
+        android:dropDownWidth="wrap_content"
+        android:entries="@array/Alid"
+        android:spinnerMode="dropdown"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editText4"
+        app:layout_constraintTop_toBottomOf="@+id/LeeftijdBegeleiders" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="55dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <android.support.constraint.Constraints
+        android:id="@+id/constraints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
+
+
+</android.support.constraint.ConstraintLayout>

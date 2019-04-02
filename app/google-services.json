@@ -23,6 +23,22 @@
           }
         },
         {
+          "client_id": "329697971278-e1iuqjgrbjnn8sft2nhbqbjo08guijja.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dutmella",
+            "certificate_hash": "4c59491d272067cda55f842c2f8357b8f7400f24"
+          }
+        },
+        {
+          "client_id": "329697971278-givf99bn4f8ffe5n9j9solg8g2822g0p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dutmella",
+            "certificate_hash": "3eab2ce8cf1c148a6d4334ed798a13bbaf9cc636"
+          }
+        },
+        {
           "client_id": "329697971278-4felpaosq1tu3d846lfamuf20ei260vt.apps.googleusercontent.com",
           "client_type": 3
         }

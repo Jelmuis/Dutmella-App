@@ -26,4 +26,54 @@
         <item>Groepsbestuur</item>
         <item>Stichtingbestuur</item>
     </string-array>
+
+    <string name="Speltak">Speltak</string>
+    <string name="Aantal_Begeleiders">Aantal Begeleiders</string>
+    <string name="LeeftijdBegeleiders">Leeftijd Begeleiders</string>
+    <string name="aantal_leden">Aantal Leden</string>
+    <string name="Datum">Datum</string>
+
+    <string name="aantal_begeleiders">Aantal Begeleiders</string>
+    <string name="leeftijd_begeleiders">Leeftijd Begeleiders</string>
+    <string name="datum">Datum</string>
+    <string name="bevestig">Bevestig</string>
+
+
+    <string-array name="Speltak">
+        <item>Bevers</item>
+        <item>Welpen</item>
+        <item>Scouts</item>
+        <item>Explorers</item>
+        <item>Roverscouts</item>
+    </string-array>
+
+    <string-array name="ABEG">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="LeeftijdBegeleiders">
+        <item>21 - 30 jaar </item>
+        <item> 30 - 50 jaar</item>
+
+    </string-array>
+
+    <string-array name="Alid">
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+
+
+
+
 </resources>
