@@ -16,7 +16,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainMenuActivity extends AppCompatActivity
+public class  MainMenuActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
@@ -80,17 +80,19 @@ public class MainMenuActivity extends AppCompatActivity
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
+
         Fragment frag = null;
         int id = item.getItemId();
 
         if (id == R.id.nav_overzicht_reserveringen) {
 
-            // Handle the camera action
+            Intent i = new Intent(this,ReserveringenOverzichtActivity.class);
+            startActivity(i);
+            
         } else if (id == R.id.nav_overzicht_vergunningen) {
             frag = new MainOverzicht();
         } else if (id == R.id.nav_materiaal_reserveringen) {
-
+            frag = new MateriaalOverzicht();
         } else if (id == R.id.nav_aanvraag_stookvergunning) {
 
         } else if (id == R.id.nav_aanvraag_overnachting){
@@ -99,6 +101,10 @@ public class MainMenuActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_send) {
 
+        } if (frag != null) {
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.fragment_container , frag);
+            ft.commit();
         }
 
         if (frag != null){

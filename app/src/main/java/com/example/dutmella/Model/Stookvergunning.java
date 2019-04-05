@@ -3,7 +3,7 @@ package com.example.dutmella.Model;
 import java.sql.Date;
 import java.sql.Time;
 
-public class KampvuurVergunning {
+public class Stookvergunning {
 
     private int idKampvuurVergunning;       //auto increment & primary key
 
