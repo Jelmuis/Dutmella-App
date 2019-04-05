@@ -80,15 +80,17 @@ public class  MainMenuActivity extends AppCompatActivity
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
+
         Fragment frag = null;
         int id = item.getItemId();
 
         if (id == R.id.nav_overzicht_reserveringen) {
+
             Intent i = new Intent(this,ReserveringenOverzichtActivity.class);
             startActivity(i);
-
+            
         } else if (id == R.id.nav_overzicht_vergunningen) {
-
+            frag = new MainOverzicht();
         } else if (id == R.id.nav_materiaal_reserveringen) {
             frag = new MateriaalOverzicht();
         } else if (id == R.id.nav_aanvraag_stookvergunning) {
@@ -102,6 +104,12 @@ public class  MainMenuActivity extends AppCompatActivity
         } if (frag != null) {
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
             ft.replace(R.id.fragment_container , frag);
+            ft.commit();
+        }
+
+        if (frag != null){
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.fragment_container, frag);
             ft.commit();
         }
 
