@@ -11,6 +11,7 @@
     <string name="start_tijd">Start tijd:</string>
     <string name="start_datum">Start datum:</string>
     <string name="speltak">Speltak:</string>
+    <string name="Overzicht_sVergunning">Overzicht Stookvergunning</string>
 
     <string-array name="speltakken">
         <item>Bevers</item>
@@ -26,4 +27,7 @@
         <item>Groepsbestuur</item>
         <item>Stichtingbestuur</item>
     </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

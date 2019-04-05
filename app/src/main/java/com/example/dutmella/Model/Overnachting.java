@@ -1,17 +1,17 @@
 package com.example.dutmella.Model;
 
-public class Overnachting {
-
-    private String idOvernachtingVergunning;      //auto increment & primary key.
+public class Overnachting extends Reservering{
 
     private String speltak_naam;
-    private String aant_begeleiders;
-    private String min_leeftijd_beg;
-    private String max_leeftijd_beg;
+    private String idOvernachtingVergunning;      //auto increment & primary key.
 
-    private String aant_leden;
-    private String min_leeftijd_lid;
+    private String max_leeftijd_beg;
     private String max_leeftijd_lid;
+    private String min_leeftijd_beg;
+    private String min_leeftijd_lid;
+
+    private String aant_begeleiders;
+    private String aant_leden;
 
     private String sDatum;
     private String sTijd;
@@ -19,8 +19,19 @@ public class Overnachting {
     private String eTijd;
 
 
-    public Overnachting(){
-
+    public Overnachting(String speltak_naam, String idOvernachtingVergunning, String max_leeftijd_beg, String max_leeftijd_lid, String min_leeftijd_beg, String min_leeftijd_lid, String aant_begeleiders, String aant_leden, String sDatum, String sTijd, String eDatum, String eTijd) {
+        this.speltak_naam = speltak_naam;
+        this.idOvernachtingVergunning = idOvernachtingVergunning;
+        this.max_leeftijd_beg = max_leeftijd_beg;
+        this.max_leeftijd_lid = max_leeftijd_lid;
+        this.min_leeftijd_beg = min_leeftijd_beg;
+        this.min_leeftijd_lid = min_leeftijd_lid;
+        this.aant_begeleiders = aant_begeleiders;
+        this.aant_leden = aant_leden;
+        this.sDatum = sDatum;
+        this.sTijd = sTijd;
+        this.eDatum = eDatum;
+        this.eTijd = eTijd;
     }
 
     public String getIdOvernachting() {
