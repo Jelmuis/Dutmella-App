@@ -24,6 +24,11 @@ import java.util.ArrayList;
 
 import javax.xml.parsers.DocumentBuilderFactory;
 
+/**
+ * @author : Jelle Muijsers
+ * In deze activity krijgt de gebruiker een lijst te zien met reserveringen.
+ *
+ */
 public class ReserveringenOverzichtActivity extends AppCompatActivity {
 
     @Override

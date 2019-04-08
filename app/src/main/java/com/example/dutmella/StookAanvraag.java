@@ -11,6 +11,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 
+/**
+ * @author : Sebastiaan Uijlen
+ * In dit fragment was het de bedoeling dat een gebruiker een stookvergunning aan kon vragen. Maar omdat we
+ * nooit geleerd hebben hoe we een insert konden maken zijn we niet verder gekomen dan de infrastructuur te maken.
+ *
+ */
 
 public class StookAanvraag extends Fragment {
 

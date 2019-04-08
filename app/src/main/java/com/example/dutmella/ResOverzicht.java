@@ -5,6 +5,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
+/**
+ * @author : Sebastiaan Uijlen
+ * In deze activity krijgt de gebruiker een specifiek overzicht te zien van de aangevraagde vergunning en de bijbehorende informatie.
+ *
+ */
 public class ResOverzicht extends AppCompatActivity {
     private TextView naam, id, maxLeid, maxLid, minLeid, minLid, aantLeid, aantLid, sDate, eDate;
 

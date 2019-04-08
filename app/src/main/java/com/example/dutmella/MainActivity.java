@@ -17,6 +17,21 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+/**
+ * @author : Jelle Muijsers
+ * Met deze klasse wordt de applicatie opgestart. Omdat te realiseren dat deze applicatie gebruik gemaakt van google-signIn heb ik de
+ * google API gebruikt die beschreven staat op de website van Google. https://developers.google.com/identity/sign-in/android/sign-in
+ *
+ * Een aantal methoden staan hier beschreven:
+ *
+ * onCreate: Wordt automatisch aangeroepen wanneer de applicatie gestart wordt. Deze verwijst door naar de methode signInMethod
+ * signInMethod: In deze methode wordt de signInIntent aangeroepen
+ * onActivityResult:
+ * handleSignInResult: Deze methode hanteerd de aanmelding van de gebruiker
+ * onStart: Deze methode kijkt of er al een gebruiker is aangemeld in de applicatie. Wanneer dit niet het geval is roept hij de signInMethod aan,
+ * en anders stuurt hij je door naar het hoofdmenu d.m.v. de toMainMenu methode.
+ * toMainMenu: Deze methode stuurt je door naar de volgende activity voor het hoofdmenu.
+ */
 public class MainActivity extends AppCompatActivity {
 
 

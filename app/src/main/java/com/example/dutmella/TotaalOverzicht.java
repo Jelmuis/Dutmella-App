@@ -30,6 +30,11 @@ import java.util.ArrayList;
 
 import javax.xml.parsers.DocumentBuilderFactory;
 
+/**
+ * @author : Sebastiaan Uijlen
+ * Deze activity wordt aangeroepen wanneer de gebruiker vraagt om een overzicht van vergunningaanvragen. Wanneer deze dan op een enkele
+ * reservering klikt wordt de gebruiker doorverwezen naar de klasse ResOverzicht.
+ */
 public class TotaalOverzicht extends AppCompatActivity {
 
     @Override

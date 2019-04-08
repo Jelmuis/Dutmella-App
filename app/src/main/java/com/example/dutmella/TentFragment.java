@@ -8,6 +8,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+/**
+ * @author : Jelle Muijsers
+ * Dit Fragment wordt aangeroepen wanneer er op de afbeelding van de tent geklikt wordt. Hier krijgt de
+ * gebruiker de optie om in te voeren hoeveel tenten hij/zij wil reserveren. Helaas hebben we dit niet door kunnen zetten
+ * omdat we niet begrepen hoe we een insert in de database moesten maken.
+ * */
 
 public class TentFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match

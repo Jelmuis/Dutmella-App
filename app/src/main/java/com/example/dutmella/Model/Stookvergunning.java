@@ -3,6 +3,15 @@ package com.example.dutmella.Model;
 import java.sql.Date;
 import java.sql.Time;
 
+
+
+/**
+ * @author : Jelle Muijsers
+ * Stookvergunningklasse
+ * Hier kunnen staan alle eigenschappen van dit object gedefineerd en kunnen de get & set
+ * methodes aangeroepen worden.
+ */
+
 public class Stookvergunning extends Reservering {
 
     private int idKampvuurVergunning;       //auto increment & primary key

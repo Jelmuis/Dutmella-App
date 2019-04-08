@@ -11,6 +11,10 @@ import android.widget.Button;
 import android.widget.Spinner;
 
 
+/**
+ * @author : Sebastiaan Uijlen
+ * In deze klasse kun je desbetreffende speltak selecteren en doorgaan naar de gefilterde informatie
+ */
 public class MainOverzicht extends Fragment {
     private Spinner spinner;
     private Button button;

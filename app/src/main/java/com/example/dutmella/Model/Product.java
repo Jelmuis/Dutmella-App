@@ -1,5 +1,11 @@
 package com.example.dutmella.Model;
 
+
+/**
+ * @author : Jelle Muijsers
+ * Hier kunnen staan alle eigenschappen van dit object gedefineerd en kunnen de get & set
+ *   methodes aangeroepen worden.
+ */
 public class Product {
 
     private int idProduct;              //auto increment & primary key
