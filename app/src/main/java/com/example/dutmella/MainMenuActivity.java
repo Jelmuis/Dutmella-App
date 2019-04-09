@@ -92,7 +92,7 @@ public class  MainMenuActivity extends AppCompatActivity
         } else if (id == R.id.nav_materiaal_reserveringen) {
             frag = new MateriaalOverzicht();
         } else if (id == R.id.nav_aanvraag_stookvergunning) {
-
+                frag = new StookAanvraag();
         } else if (id == R.id.nav_aanvraag_overnachting){
 
         } else if (id == R.id.nav_share) {

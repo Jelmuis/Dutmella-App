@@ -7,7 +7,7 @@
     tools:context=".StookAanvraag">
 
     <android.support.v7.widget.GridLayout
-        android:id="@+id/spinnerSpel"
+        android:id="@+id/grid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
@@ -89,7 +89,7 @@
             app:layout_row="4" />
 
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerSpel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_column="1"

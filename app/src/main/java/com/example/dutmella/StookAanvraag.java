@@ -3,10 +3,11 @@ package com.example.dutmella;
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
@@ -45,6 +46,10 @@ public class StookAanvraag extends Fragment {
         eDate = view.findViewById(R.id.editEDate);
         eTime = view.findViewById(R.id.editETime);
         aanvrButton = view.findViewById(R.id.aanvrButton);
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this.getActivity(), android.R.layout.simple_spinner_item, getResources().getStringArray(R.array.speltakken));
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinnerSpel.setAdapter(adapter);
 
     }
 
